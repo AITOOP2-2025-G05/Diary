@@ -1,8 +1,13 @@
 from diaries.DiarySample import DiarySample
 from diaries.OguraDiary import OguraDiary
+from diaries.NatsumeDiary import NatsumeDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), OguraDiary(), ]
+diaries = [
+    DiarySample(), 
+    OguraDiary(), 
+    NatsumeDiary(),
+]
 
 for d in diaries:
     print("---------------------------------")
@@ -10,4 +15,3 @@ for d in diaries:
     print(d.get_summary())
     print(d.get_author())
     print()
-    
