@@ -2,6 +2,7 @@ from diaries.DiarySample import DiarySample
 from diaries.OguraDiary import OguraDiary
 from diaries.NatsumeDiary import NatsumeDiary
 from diaries.KuwabaraDiary import KuwabaraDiary
+from diaries.KanbeDiary import KanbeDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [
@@ -9,6 +10,7 @@ diaries = [
     OguraDiary(), 
     NatsumeDiary(), 
     KuwabaraDiary(), 
+    KanbeDiary(),
 ]
 
 
